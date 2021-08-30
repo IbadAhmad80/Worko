@@ -15,7 +15,7 @@ export const Slidersettings = {
         borderRadius: "50%",
         height: "9px",
         width: "9px",
-        margin: "10px 0 0 0",
+        margin: "30px 0 0 0",
       }}
     ></div>
   ),

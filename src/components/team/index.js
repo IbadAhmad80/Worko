@@ -24,7 +24,7 @@ export default function Team() {
 
 function SingleTeamMember({ member: { name, image, post } }) {
   return (
-    <div className="card text-center mx-2 service-card">
+    <div className="card text-center mx-2 service-card gy-5 gy-sm-3">
       <Image
         className="card-img-top "
         fluid

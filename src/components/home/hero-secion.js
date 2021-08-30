@@ -13,7 +13,7 @@ export default function HeroSection() {
         We are team of talented digital marketers
       </h5>
 
-      <div className="container-lg my-5 pt-4 pb-5">
+      <div className="container-lg my-5 pt-4 pb-5 px-3 px-sm-0">
         <div className=" card-deck mb-5 row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 d-flex justify-content-center">
           {home_cards_data.map(({ title, BsFillImageFill }) => {
             return (

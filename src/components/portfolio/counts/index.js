@@ -39,11 +39,11 @@ export default function Counts() {
 function SingleCount({ count: { title, description, FaArtstation } }) {
   return (
     <div className="mb-3 d-flex">
-      <i className="display-5 fw-bolder px-0 text-warning">
+      <i className=" display-4 fw-bolder px-0 text-warning">
         <FaArtstation />
       </i>
       <div className="px-3">
-        <strong className="fs-2 ">{title}</strong>
+        <strong className="fs-1 ">{title}</strong>
         <p className="my-1 text-muted fs-6">{description}</p>
       </div>
     </div>

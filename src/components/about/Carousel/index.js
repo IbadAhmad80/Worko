@@ -11,35 +11,39 @@ export default function App() {
       <Slider {...Slidersettings} className="mx-2 mx-md-5 px-2 my-5">
         <Image
           src={"/assets/img/clients/client-1.png"}
-          className="px-5 opacity-100 "
+          className="px-3 px-sm-5 opacity-100 "
         />
         <Image
           src={"/assets/img/clients/client-2.png"}
-          className="px-5 opacity-100 client-slick"
+          className="px-3 px-sm-5 opacity-100 client-slick"
         />
         <Image
           src={"/assets/img/clients/client-3.png"}
-          className="px-5 opacity-100 client-slick"
+          className="px-3 px-sm-5 opacity-100 client-slick"
         />
         <Image
           src={"/assets/img/clients/client-4.png"}
-          className="px-5 opacity-100 client-slick"
+          className="px-3 px-sm-5 opacity-100 client-slick"
         />
         <Image
-          src={"/assets/img/clients/client-5.png"}
-          className="px-5 opacity-100 client-slick"
+          src={"/assets/img/clients/client-1.png"}
+          className="px-3 px-sm-5 opacity-100 "
         />
         <Image
-          src={"/assets/img/clients/client-6.png"}
-          className="px-5 opacity-100 client-slick"
+          src={"/assets/img/clients/client-2.png"}
+          className="px-3 px-sm-5 opacity-100 client-slick"
         />
         <Image
-          src={"/assets/img/clients/client-7.png"}
-          className="px-5 opacity-100 client-slick"
+          src={"/assets/img/clients/client-3.png"}
+          className="px-3 px-sm-5 opacity-100 client-slick"
+        />
+        <Image
+          src={"/assets/img/clients/client-4.png"}
+          className="px-3 px-sm-5 opacity-100 client-slick"
         />
         <Image
           src={"/assets/img/clients/client-8.png"}
-          className="px-5 opacity-100 client-slick"
+          className="px-3 px-sm-5 opacity-100 client-slick"
         />
       </Slider>
     </div>

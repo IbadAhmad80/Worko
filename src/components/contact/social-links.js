@@ -4,7 +4,7 @@ import { AiOutlineMail, AiFillContacts } from "react-icons/ai";
 
 export default function SocialLinks() {
   return (
-    <div className="container pb-4">
+    <div className="pb-4">
       <div className="d-flex flex-column">
         <div className="d-flex">
           <i className="text-warning h-25 fs-3">

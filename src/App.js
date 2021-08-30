@@ -6,6 +6,7 @@ import Services from "./components/services";
 import Portfolio from "./components/portfolio";
 import Team from "./components/team";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <span id="contact">
         <Contact />
       </span>
+      <Footer />
     </div>
   );
 }

@@ -7,7 +7,8 @@ export const counts_data = [
     FaArtstation: BiHappyAlt,
     title: "65",
     description:
-      "Happy Clients consequuntur voluptas nostrum aliquid ipsam architecto ut.",
+      <strong>Happy Clients</strong> +
+      " consequuntur voluptas nostrum aliquid ipsam architecto ut.",
   },
   {
     FaArtstation: AiOutlineFundProjectionScreen,

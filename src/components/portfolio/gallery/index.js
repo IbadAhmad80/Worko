@@ -29,43 +29,40 @@ export default function Gallery() {
   return (
     <div className="portfolio mb-5 pb-4" id="portfolio">
       <div className="container">
-        <div className="container-xxl">
-          <div className="row w-100">
-            <div className="col-lg-12 d-flex justify-content-center text-center mt-5">
-              <ul id="portfolio-flters">
-                <li
-                  id="all"
-                  className="filter-active d-inline-block px-3 mx-2 py-1 fw-bold "
-                  onClick={() => setCategory("all")}
-                >
-                  All
-                </li>
-                <li
-                  id="app"
-                  className="d-inline-block px-3 mx-2 py-1 fw-bold"
-                  onClick={() => setCategory("app")}
-                >
-                  App
-                </li>
-                <li
-                  id="card"
-                  className="d-inline-block px-3 mx-2 py-1 fw-bold"
-                  onClick={() => setCategory("card")}
-                >
-                  Card
-                </li>
-                <li
-                  id="web"
-                  className="d-inline-block px-3 mx-2 py-1 fw-bold"
-                  onClick={() => setCategory("web")}
-                >
-                  Web
-                </li>
-              </ul>
-            </div>
+        <div className="row w-100">
+          <div className="d-flex justify-content-sm-center text-center mt-5">
+            <ul id="portfolio-flters">
+              <li
+                id="all"
+                className="filter-active d-inline-block px-3 mx-0 mx-sm-2 py-1 fw-bold "
+                onClick={() => setCategory("all")}
+              >
+                All
+              </li>
+              <li
+                id="app"
+                className="d-inline-block px-3  mx-0 mx-sm-2  py-1 fw-bold"
+                onClick={() => setCategory("app")}
+              >
+                App
+              </li>
+              <li
+                id="card"
+                className="d-inline-block px-3  mx-0 mx-sm-2  py-1 fw-bold"
+                onClick={() => setCategory("card")}
+              >
+                Card
+              </li>
+              <li
+                id="web"
+                className="d-inline-block px-3  mx-0 mx-sm-2  py-1 fw-bold"
+                onClick={() => setCategory("web")}
+              >
+                Web
+              </li>
+            </ul>
           </div>
         </div>
-
         <div className="row">
           {activeItems &&
             activeItems.map((item) => {
